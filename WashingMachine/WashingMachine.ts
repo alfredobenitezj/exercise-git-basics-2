@@ -1,8 +1,8 @@
 class WashingMachine {
-  private program: number;
+  public program: number;
   private coldWater: boolean;
   private softener: boolean;
-  private isWorking: boolean;
+  public isWorking: boolean;
 
   public wash(): void {
     this.isWorking = true;
